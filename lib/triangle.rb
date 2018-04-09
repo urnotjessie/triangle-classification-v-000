@@ -23,7 +23,7 @@ class Triangle
     end
   end
 
-  class TriangleErro < StandardError
+  class TriangleError < StandardError
   end
 
 
