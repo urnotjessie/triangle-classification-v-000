@@ -15,6 +15,8 @@ class Triangle
         :isosceles
       elsif l1 != l2 && l2 != l3 && l1 != l3
         :scalene
+      elsif l1 + l2 <= l3 || l1 + l3 <= l2 || l2 + l3 <= l1
+        raise TriangleError
     else
       raise TriangleError
 
