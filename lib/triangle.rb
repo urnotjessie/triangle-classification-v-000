@@ -21,6 +21,10 @@ class Triangle
     else
       raise TriangleError
     end
+  end
+
+  class TriangleErro < StandardError
+  end
 
 
 end
